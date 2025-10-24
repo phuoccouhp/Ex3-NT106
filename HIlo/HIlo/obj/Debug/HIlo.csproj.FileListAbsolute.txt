@@ -1,0 +1,9 @@
+C:\Visual Studio\Lap trinh mang can ban\Exercise3\HIlo\HIlo\obj\Debug\HIlo.csproj.AssemblyReference.cache
+C:\Visual Studio\Lap trinh mang can ban\Exercise3\HIlo\HIlo\obj\Debug\HIlo.Properties.Resources.resources
+C:\Visual Studio\Lap trinh mang can ban\Exercise3\HIlo\HIlo\obj\Debug\HIlo.csproj.GenerateResource.cache
+C:\Visual Studio\Lap trinh mang can ban\Exercise3\HIlo\HIlo\obj\Debug\HIlo.csproj.CoreCompileInputs.cache
+C:\Visual Studio\Lap trinh mang can ban\Exercise3\HIlo\HIlo\bin\Debug\HIlo.exe.config
+C:\Visual Studio\Lap trinh mang can ban\Exercise3\HIlo\HIlo\bin\Debug\HIlo.exe
+C:\Visual Studio\Lap trinh mang can ban\Exercise3\HIlo\HIlo\bin\Debug\HIlo.pdb
+C:\Visual Studio\Lap trinh mang can ban\Exercise3\HIlo\HIlo\obj\Debug\HIlo.exe
+C:\Visual Studio\Lap trinh mang can ban\Exercise3\HIlo\HIlo\obj\Debug\HIlo.pdb

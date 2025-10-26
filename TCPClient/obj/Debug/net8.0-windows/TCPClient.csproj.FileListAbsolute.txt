@@ -11,11 +11,6 @@ C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\bin\Debug\net8.0-windows\runtime
 C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\TCPClient.csproj.AssemblyReference.cache
-C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.Dangky.resources
-C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.Dangnhap.resources
-C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.MatKhauMoi.resources
-C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.Quenmatkhau.resources
-C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.ThongTinNguoiDung.resources
 C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\TCPClient.csproj.GenerateResource.cache
 C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\TCPClient.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\TCPClient.AssemblyInfoInputs.cache
@@ -28,3 +23,8 @@ C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\refint\
 C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\TCPClient.pdb
 C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\TCPClient.genruntimeconfig.cache
 C:\Users\Admin\source\repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\ref\TCPClient.dll
+C:\Users\Admin\Source\Repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\TCPClient.Dangky.resources
+C:\Users\Admin\Source\Repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\TCPClient.Dangnhap.resources
+C:\Users\Admin\Source\Repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\TCPClient.Quenmatkhau.resources
+C:\Users\Admin\Source\Repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\TCPClient.ThongTinNguoiDung.resources
+C:\Users\Admin\Source\Repos\Ex3-NT106\TCPClient\obj\Debug\net8.0-windows\TCPClient.MatKhauMoi.resources

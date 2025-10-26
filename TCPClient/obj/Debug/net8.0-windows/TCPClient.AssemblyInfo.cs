@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TCPClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a91367422a0111434bc0f8bfd439787893f42c17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a61ac2386cbb7ade04dd6ade2d13645af63b5270")]
 [assembly: System.Reflection.AssemblyProductAttribute("TCPClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TCPClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

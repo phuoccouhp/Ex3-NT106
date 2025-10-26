@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
 
-namespace BTVN1_Nhom6_NT106.Q12
+namespace TCPClient
 {
     public partial class MatKhauMoi : Form
     {

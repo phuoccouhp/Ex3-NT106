@@ -13,7 +13,7 @@ using static System.Net.WebRequestMethods;
 using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.Text;
-namespace BTVN1_Nhom6_NT106.Q12
+namespace TCPClient
 {
     public partial class Quenmatkhau : Form
     {

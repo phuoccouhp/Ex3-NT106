@@ -3,7 +3,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.Text;
-namespace BTVN1_Nhom6_NT106.Q12
+namespace TCPClient
 {
 
 

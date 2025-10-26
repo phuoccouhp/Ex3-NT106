@@ -1,4 +1,4 @@
-namespace BTVN1_Nhom6_NT106.Q12
+namespace TCPClient
 {
     internal static class Program
     {

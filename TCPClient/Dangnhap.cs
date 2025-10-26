@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.Text;
-namespace BTVN1_Nhom6_NT106.Q12
+namespace TCPClient
 {
     public partial class Dangnhap : Form
     {

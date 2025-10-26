@@ -13,7 +13,7 @@ using System;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace BTVN1_Nhom6_NT106.Q12
+namespace TCPClient
 {
     public partial class ThongTinNguoiDung : Form
     {

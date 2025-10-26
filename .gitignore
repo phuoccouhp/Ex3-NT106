@@ -1,6 +1,6 @@
 # Prerequisites
 *.d
-
+*.vsidx
 # Object files
 *.o
 *.ko

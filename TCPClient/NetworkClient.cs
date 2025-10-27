@@ -2,8 +2,8 @@
 using System.Net.Sockets;
 using System.Text;
 using System.Windows.Forms;
-using System.Net; // Để sử dụng IPAddress
-using System.Net.Sockets; // <--- THÊM DÒNG NÀY (cho AddressFamily)
+using System.Net;
+using System.Net.Sockets; 
 
 namespace TCPClient
 {
@@ -14,15 +14,12 @@ namespace TCPClient
 
         private const string serverIP = "127.0.0.1";
         private const int serverPort = 9999;
-
-        // VV THÊM DÒNG NÀY ĐỂ LƯU TOKEN VV
-        public static string CurrentToken { get; set; } // Bỏ chữ "private" đi        // ^^ KẾT THÚC THÊM ^^
+        public static string CurrentToken { get; set; }   
 
         public static bool ConnectToServer()
         {
             try
             {
-                // Sửa lỗi IPv4/IPv6 triệt để
                 client = new TcpClient(AddressFamily.InterNetwork);
 
                 IPAddress ipAddress = IPAddress.Parse(serverIP);

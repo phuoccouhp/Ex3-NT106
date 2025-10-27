@@ -6,7 +6,7 @@ using System.Threading;
 using System.Data.SqlClient;
 using System.Data;
 using System.Windows.Forms;
-using System.Collections.Generic; // <--- THÊM DÒNG NÀY (để dùng List)
+using System.Collections.Generic; 
 
 namespace TCPServer
 {
@@ -22,9 +22,6 @@ namespace TCPServer
             InitializeComponent();
             btnStop.Enabled = false;
         }
-
-        // (Các hàm btnStart_Click_1, btnStop_Click_1, StartListening, HandleClient, Log, ProcessRequest...)
-        // (Giữ nguyên, không thay đổi...)
 
         private void btnStart_Click_1(object sender, EventArgs e)
         {
@@ -65,7 +62,7 @@ namespace TCPServer
         {
             try
             {
-                listener = new TcpListener(IPAddress.Parse("127.0.0.1"), PORT); // Ép IPv4
+                listener = new TcpListener(IPAddress.Parse("127.0.0.1"), PORT); 
                 listener.Start();
                 while (true)
                 {
@@ -149,8 +146,6 @@ namespace TCPServer
                 return $"ERROR|Loi xu ly server: {ex.Message}";
             }
         }
-
-        // --- HÀM NÀY ĐÃ ĐƯỢC SỬA ĐỂ TẠO VÀ GỬI TOKEN ---
         private string KiemTraDangNhap(string usernameOrEmail, string hashedPassword)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
@@ -165,40 +160,29 @@ namespace TCPServer
                     {
                         if (reader.Read())
                         {
-                            // 1. Lấy dữ liệu user vào một List<string>
                             var userData = new List<string>
                             {
-                                "LOGIN_SUCCESS", // Phần tử 0
-                                reader["Username"]?.ToString() ?? "", // Phần tử 1
-                                reader["Email"]?.ToString() ?? "", // Phần tử 2
-                                reader["HoTen"]?.ToString() ?? "", // Phần tử 3
-                                reader["SoDienThoai"]?.ToString() ?? "", // Phần tử 4
-                                reader["NgaySinh"]?.ToString() ?? "", // Phần tử 5
-                                reader["GioiTinh"]?.ToString() ?? "", // Phần tử 6
-                                reader["DiaChi"]?.ToString() ?? "" // Phần tử 7
+                                "LOGIN_SUCCESS", 
+                                reader["Username"]?.ToString() ?? "", 
+                                reader["Email"]?.ToString() ?? "", 
+                                reader["HoTen"]?.ToString() ?? "", 
+                                reader["SoDienThoai"]?.ToString() ?? "", 
+                                reader["NgaySinh"]?.ToString() ?? "",
+                                reader["GioiTinh"]?.ToString() ?? "",
+                                reader["DiaChi"]?.ToString() ?? "" 
                             };
-
-                            // 2. TẠO TOKEN (theo yêu cầu nâng cao)
                             string token = Guid.NewGuid().ToString();
-
-                            // (Trong ứng dụng thực tế, bạn nên lưu token này vào CSDL
-                            // cùng với UserId và thời gian hết hạn để quản lý)
-
-                            // 3. Thêm token vào cuối danh sách (sẽ là phần tử 8)
                             userData.Add(token);
-
-                            // 4. Trả về chuỗi, phân tách bằng '|'
                             return string.Join("|", userData);
                         }
                         else
                         {
-                            return "LOGIN_FAIL"; // Đăng nhập thất bại
+                            return "LOGIN_FAIL"; 
                         }
                     }
                 }
             }
         }
-        // --- KẾT THÚC HÀM SỬA ---
 
         private string LuuNguoiDungVaoSQL(string username, string email, string hoten, string hashedPassword,
                                           string sdt, string ngaysinh, string gioitinh, string diachi)
@@ -207,7 +191,6 @@ namespace TCPServer
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    // Code INSERT (đã sửa)
                     string query = @"INSERT INTO NguoiDung 
                                      (Username, Email, HoTen, PasswordHash, SoDienThoai, NgaySinh, GioiTinh, DiaChi)
                                      VALUES 
@@ -221,7 +204,6 @@ namespace TCPServer
                         cmd.Parameters.AddWithValue("@PasswordHash", hashedPassword);
                         cmd.Parameters.AddWithValue("@SoDienThoai", string.IsNullOrEmpty(sdt) ? (object)DBNull.Value : sdt);
 
-                        // Code NgaySinh (đã sửa)
                         cmd.Parameters.AddWithValue("@NgaySinh", string.IsNullOrEmpty(ngaysinh) ? (object)DBNull.Value : ngaysinh);
 
                         cmd.Parameters.AddWithValue("@GioiTinh", string.IsNullOrEmpty(gioitinh) ? (object)DBNull.Value : gioitinh);

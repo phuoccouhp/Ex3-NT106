@@ -74,19 +74,11 @@ namespace TCPClient
                 {
                     MessageBox.Show("Đăng nhập thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     string[] userData = response.Split('|');
-
-                    // VV THÊM LOGIC LƯU TOKEN VV
-                    // Server sẽ gửi: LOGIN_SUCCESS|data...|token
-                    // userData[0] là "LOGIN_SUCCESS"
-                    // userData[1-7] là dữ liệu user
-                    // userData[8] (phần tử cuối) sẽ là token
                     if (userData.Length > 8)
                     {
                         NetworkClient.CurrentToken = userData[userData.Length - 1];
-                        // Bạn có thể Ghi Log token ra đây để kiểm tra
-                        // Console.WriteLine($"Token da luu: {NetworkClient.CurrentToken}");
+                        
                     }
-                    // ^^ KẾT THÚC THÊM ^^
 
                     ThongTinNguoiDung home = new ThongTinNguoiDung(userData);
                     home.Show();

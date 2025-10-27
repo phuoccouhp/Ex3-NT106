@@ -13,7 +13,6 @@ namespace TCPServer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            // Chạy ServerForm thay vì code Console cũ
             Application.Run(new ServerForm());
         }
     }

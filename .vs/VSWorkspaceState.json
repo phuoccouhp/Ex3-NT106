@@ -4,6 +4,6 @@
     "\\TCPClient",
     "\\TCPServer"
   ],
-  "SelectedNode": "\\TCPServer\\ServerForm.cs",
+  "SelectedNode": "\\TCPClient\\NetworkClient.cs",
   "PreviewInSolutionExplorer": false
 }

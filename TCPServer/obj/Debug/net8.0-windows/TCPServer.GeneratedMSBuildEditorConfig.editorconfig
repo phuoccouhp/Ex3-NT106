@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TCPServer
-build_property.ProjectDir = C:\Users\Admin\Source\Repos\Ex3-NT106\TCPServer\
+build_property.ProjectDir = C:\Users\Admin\source\repos\Ex3-NT106\TCPServer\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

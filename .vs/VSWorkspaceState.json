@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TCPClient",
+    "\\TCPServer"
   ],
-  "SelectedNode": "\\TCPClient.sln",
+  "SelectedNode": "\\TCPServer\\ServerForm.cs",
   "PreviewInSolutionExplorer": false
 }

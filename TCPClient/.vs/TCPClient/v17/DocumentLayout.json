@@ -9,10 +9,6 @@
       "AbsoluteMoniker": "D:0:0:{19CAE4D2-522A-4808-B197-AC2F4625C294}|..\\TCPServer\\TCPServer.csproj|c:\\users\\admin\\source\\repos\\ex3-nt106\\tcpserver\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|c:\\users\\admin\\source\\repos\\ex3-nt106\\tcpclient\\networkclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:networkclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,11 +17,40 @@
       "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\thongtinnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:thongtinnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\thongtinnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:thongtinnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|c:\\users\\admin\\source\\repos\\ex3-nt106\\tcpclient\\quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\matkhaumoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:matkhaumoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\matkhaumoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:matkhaumoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19CAE4D2-522A-4808-B197-AC2F4625C294}|..\\TCPServer\\TCPServer.csproj|c:\\users\\admin\\source\\repos\\ex3-nt106\\tcpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|c:\\users\\admin\\source\\repos\\ex3-nt106\\tcpclient\\networkclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:networkclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19CAE4D2-522A-4808-B197-AC2F4625C294}|..\\TCPServer\\TCPServer.csproj|c:\\users\\admin\\source\\repos\\ex3-nt106\\tcpserver\\serverform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -33,6 +58,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\tcpclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:tcpclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19CAE4D2-522A-4808-B197-AC2F4625C294}|..\\TCPServer\\TCPServer.csproj|c:\\users\\admin\\source\\repos\\ex3-nt106\\tcpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19CAE4D2-522A-4808-B197-AC2F4625C294}|..\\TCPServer\\TCPServer.csproj|c:\\users\\admin\\source\\repos\\ex3-nt106\\tcpserver\\tcpserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -45,40 +73,20 @@
       "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\thongtinnguoidung.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:thongtinnguoidung.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\thongtinnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:thongtinnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\dangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:dangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\thongtinnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:thongtinnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\quenmatkhau.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:quenmatkhau.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\matkhaumoi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:matkhaumoi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\matkhaumoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:matkhaumoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,10 +99,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\thongtinnguoidung.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:thongtinnguoidung.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\matkhaumoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{93B79F37-0EF6-4844-A62A-F29042B41AC5}|TCPClient.csproj|solutionrelative:matkhaumoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -104,7 +108,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -140,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Dangky.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Dangky.cs",
               "RelativeDocumentMoniker": "Dangky.cs",
@@ -152,28 +156,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Dangky.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Dangky.cs",
               "RelativeDocumentMoniker": "Dangky.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Dangky.cs",
               "RelativeToolTip": "Dangky.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwC0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T14:06:17.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NetworkClient.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\NetworkClient.cs",
-              "RelativeDocumentMoniker": "NetworkClient.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\NetworkClient.cs",
-              "RelativeToolTip": "NetworkClient.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAAA4AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T14:19:59.324Z",
               "EditorCaption": ""
             },
             {
@@ -196,14 +187,77 @@
               "RelativeDocumentMoniker": "..\\TCPServer\\ServerForm.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPServer\\ServerForm.cs",
               "RelativeToolTip": "..\\TCPServer\\ServerForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAACFAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T00:58:25.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThongTinNguoiDung.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\ThongTinNguoiDung.cs",
+              "RelativeDocumentMoniker": "ThongTinNguoiDung.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\ThongTinNguoiDung.cs",
+              "RelativeToolTip": "ThongTinNguoiDung.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T14:06:48.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ThongTinNguoiDung.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\ThongTinNguoiDung.cs",
+              "RelativeDocumentMoniker": "ThongTinNguoiDung.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\ThongTinNguoiDung.cs [Design]",
+              "RelativeToolTip": "ThongTinNguoiDung.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T14:13:49.781Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Quenmatkhau.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Quenmatkhau.cs",
+              "RelativeDocumentMoniker": "Quenmatkhau.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Quenmatkhau.cs",
+              "RelativeToolTip": "Quenmatkhau.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T14:06:42.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Quenmatkhau.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Quenmatkhau.cs",
+              "RelativeDocumentMoniker": "Quenmatkhau.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Quenmatkhau.cs [Design]",
+              "RelativeToolTip": "Quenmatkhau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T01:48:09.88Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dangnhap.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "Dangnhap.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Dangnhap.cs",
+              "RelativeToolTip": "Dangnhap.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAE0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T14:06:36.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Dangnhap.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Dangnhap.cs",
               "RelativeDocumentMoniker": "Dangnhap.cs",
@@ -215,84 +269,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPServer\\Program.cs",
-              "RelativeDocumentMoniker": "..\\TCPServer\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPServer\\Program.cs",
-              "RelativeToolTip": "..\\TCPServer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "DocumentIndex": 9,
+              "Title": "MatKhauMoi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\MatKhauMoi.cs",
+              "RelativeDocumentMoniker": "MatKhauMoi.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\MatKhauMoi.cs [Design]",
+              "RelativeToolTip": "MatKhauMoi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T00:58:16.821Z",
+              "WhenOpened": "2025-10-26T12:51:44.051Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MatKhauMoi.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\MatKhauMoi.cs",
+              "RelativeDocumentMoniker": "MatKhauMoi.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\MatKhauMoi.cs",
+              "RelativeToolTip": "MatKhauMoi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T14:09:07.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
+              "Title": "NetworkClient.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\NetworkClient.cs",
+              "RelativeDocumentMoniker": "NetworkClient.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\NetworkClient.cs",
+              "RelativeToolTip": "NetworkClient.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T14:19:59.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ServerForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPServer\\ServerForm.Designer.cs",
               "RelativeDocumentMoniker": "..\\TCPServer\\ServerForm.Designer.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPServer\\ServerForm.Designer.cs",
               "RelativeToolTip": "..\\TCPServer\\ServerForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAjwFUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T00:58:21.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TCPServer",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPServer\\TCPServer.csproj",
-              "RelativeDocumentMoniker": "..\\TCPServer\\TCPServer.csproj",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPServer\\TCPServer.csproj",
-              "RelativeToolTip": "..\\TCPServer\\TCPServer.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-27T00:52:51.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TCPServer",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPServer\\TCPServer.csproj",
-              "RelativeDocumentMoniker": "..\\TCPServer\\TCPServer.csproj",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPServer\\TCPServer.csproj",
-              "RelativeToolTip": "..\\TCPServer\\TCPServer.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-27T00:52:15.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Dangnhap.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Dangnhap.cs",
-              "RelativeDocumentMoniker": "Dangnhap.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Dangnhap.cs",
-              "RelativeToolTip": "Dangnhap.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAjwGMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T14:06:36.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ThongTinNguoiDung.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\ThongTinNguoiDung.cs",
-              "RelativeDocumentMoniker": "ThongTinNguoiDung.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\ThongTinNguoiDung.cs",
-              "RelativeToolTip": "ThongTinNguoiDung.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwC8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T14:06:48.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "TCPClient.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Source\\Repos\\Ex3-NT106\\TCPClient\\TCPClient.csproj",
               "RelativeDocumentMoniker": "TCPClient.csproj",
@@ -305,7 +333,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPServer\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TCPServer\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPServer\\Program.cs",
+              "RelativeToolTip": "..\\TCPServer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T00:58:16.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TCPServer.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Source\\Repos\\Ex3-NT106\\TCPServer\\TCPServer.csproj",
+              "RelativeDocumentMoniker": "..\\TCPServer\\TCPServer.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Source\\Repos\\Ex3-NT106\\TCPServer\\TCPServer.csproj",
+              "RelativeToolTip": "..\\TCPServer\\TCPServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T00:52:51.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TCPServer",
+              "DocumentMoniker": "C:\\Users\\Admin\\Source\\Repos\\Ex3-NT106\\TCPServer\\TCPServer.csproj",
+              "RelativeDocumentMoniker": "..\\TCPServer\\TCPServer.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Source\\Repos\\Ex3-NT106\\TCPServer\\TCPServer.csproj",
+              "RelativeToolTip": "..\\TCPServer\\TCPServer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T00:52:15.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -313,12 +379,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T14:06:40.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T14:06:40.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "ThongTinNguoiDung.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\ThongTinNguoiDung.Designer.cs",
               "RelativeDocumentMoniker": "ThongTinNguoiDung.Designer.cs",
@@ -331,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Dangky.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Dangky.Designer.cs",
               "RelativeDocumentMoniker": "Dangky.Designer.cs",
@@ -344,32 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ThongTinNguoiDung.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\ThongTinNguoiDung.cs",
-              "RelativeDocumentMoniker": "ThongTinNguoiDung.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\ThongTinNguoiDung.cs [Design]",
-              "RelativeToolTip": "ThongTinNguoiDung.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T14:13:49.781Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Quenmatkhau.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Quenmatkhau.cs",
-              "RelativeDocumentMoniker": "Quenmatkhau.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Quenmatkhau.cs",
-              "RelativeToolTip": "Quenmatkhau.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAwGEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T14:06:42.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "MatKhauMoi.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\MatKhauMoi.Designer.cs",
               "RelativeDocumentMoniker": "MatKhauMoi.Designer.cs",
@@ -382,20 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MatKhauMoi.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\MatKhauMoi.cs",
-              "RelativeDocumentMoniker": "MatKhauMoi.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\MatKhauMoi.cs",
-              "RelativeToolTip": "MatKhauMoi.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAwH0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T14:09:07.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Dangnhap.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Dangnhap.Designer.cs",
               "RelativeDocumentMoniker": "Dangnhap.Designer.cs",
@@ -408,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Quenmatkhau.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\Quenmatkhau.Designer.cs",
               "RelativeDocumentMoniker": "Quenmatkhau.Designer.cs",
@@ -421,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -429,12 +456,11 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAGAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
-              "WhenOpened": "2025-10-26T14:10:50.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T14:10:50.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "ThongTinNguoiDung.resx",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\ThongTinNguoiDung.resx",
               "RelativeDocumentMoniker": "ThongTinNguoiDung.resx",
@@ -443,18 +469,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2025-10-26T14:08:08.202Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "MatKhauMoi.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\MatKhauMoi.cs",
-              "RelativeDocumentMoniker": "MatKhauMoi.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Ex3-NT106\\TCPClient\\MatKhauMoi.cs [Design]",
-              "RelativeToolTip": "MatKhauMoi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T12:51:44.051Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

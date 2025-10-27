@@ -32,11 +32,12 @@
             lblStatus = new Label();
             btnStop = new Button();
             txtLog = new RichTextBox();
+            richTextBox1 = new RichTextBox();
             SuspendLayout();
             // 
             // btnStart
             // 
-            btnStart.Location = new Point(74, 215);
+            btnStart.Location = new Point(40, 219);
             btnStart.Name = "btnStart";
             btnStart.Size = new Size(121, 39);
             btnStart.TabIndex = 22;
@@ -48,7 +49,7 @@
             // 
             lblStatus.AutoSize = true;
             lblStatus.Font = new Font("Segoe UI", 11F);
-            lblStatus.Location = new Point(74, 139);
+            lblStatus.Location = new Point(3, 154);
             lblStatus.Name = "lblStatus";
             lblStatus.Size = new Size(133, 25);
             lblStatus.TabIndex = 20;
@@ -56,7 +57,7 @@
             // 
             // btnStop
             // 
-            btnStop.Location = new Point(74, 298);
+            btnStop.Location = new Point(40, 295);
             btnStop.Name = "btnStop";
             btnStop.Size = new Size(121, 39);
             btnStop.TabIndex = 23;
@@ -74,11 +75,20 @@
             txtLog.TabIndex = 24;
             txtLog.Text = "";
             // 
+            // richTextBox1
+            // 
+            richTextBox1.Location = new Point(28, 22);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(152, 68);
+            richTextBox1.TabIndex = 25;
+            richTextBox1.Text = "Vui lòng Start Server xong mới bật TCPClient";
+            // 
             // ServerForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(richTextBox1);
             Controls.Add(txtLog);
             Controls.Add(btnStop);
             Controls.Add(btnStart);
@@ -95,5 +105,6 @@
         private Label lblStatus;
         private Button btnStop;
         private RichTextBox txtLog;
+        private RichTextBox richTextBox1;
     }
 }

@@ -2,6 +2,7 @@
 using System.Net.Sockets;
 using System.Text;
 using System.Windows.Forms;
+using System.Net; // <--- THÊM DÒNG NÀY ĐỂ SỬ DỤNG IPAddress
 
 namespace TCPClient
 {
@@ -12,7 +13,7 @@ namespace TCPClient
 
         // Địa chỉ và cổng của TCPServer
         private const string serverIP = "127.0.0.1"; // IP của máy chủ (để localhost)
-        private const int serverPort = 8080;       // Cổng mà server đang lắng nghe
+        private const int serverPort = 9999;       // Cổng mà server đang lắng nghe
 
         // Hàm này được gọi 1 LẦN DUY NHẤT khi ứng dụng khởi động
         public static bool ConnectToServer()
@@ -20,18 +21,31 @@ namespace TCPClient
             try
             {
                 client = new TcpClient();
-                client.Connect(serverIP, serverPort); // Thử kết nối
+
+                // --- PHẦN SỬA LỖI IPv4/IPv6 ---
+
+                // 1. Chuyển chuỗi "127.0.0.1" thành một đối tượng IPAddress (kiểu IPv4)
+                IPAddress ipAddress = IPAddress.Parse(serverIP);
+
+                // 2. Ép client kết nối bằng đối tượng IPAddress (IPv4)
+                //    thay vì dùng chuỗi (string) (sẽ bị ưu tiên IPv6)
+                client.Connect(ipAddress, serverPort);
+
+                // --- KẾT THÚC PHẦN SỬA ---
+
                 stream = client.GetStream();
                 return true;
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Không thể kết nối đến server: {ex.Message}", "Lỗi kết nối", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // Thông báo lỗi vẫn như cũ
+                MessageBox.Show($"Không thể kết nối đến server: {ex.Message}, bạn hãy thử bật server và lắng nghe để bật TCPClient", "Lỗi kết nối", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
 
         // Hàm này dùng để gửi yêu cầu VÀ nhận phản hồi từ Server
+        // (Không có gì thay đổi ở hàm này)
         public static string SendRequest(string request)
         {
             if (client == null || !client.Connected)
@@ -61,6 +75,7 @@ namespace TCPClient
         }
 
         // Đóng kết nối khi tắt ứng dụng
+        // (Không có gì thay đổi ở hàm này)
         public static void Disconnect()
         {
             stream?.Close();

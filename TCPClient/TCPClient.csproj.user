@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Dangky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MatKhauMoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Quenmatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ThongTinNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -253,7 +253,6 @@
             Name = "ThongTinNguoiDung";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Thông tin người dùng";
-            Load += ThongTinNguoiDung_Load;
             pnlHeader.ResumeLayout(false);
             pnlHeader.PerformLayout();
             ResumeLayout(false);

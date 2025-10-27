@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.Text;
 namespace TCPClient
@@ -55,7 +54,7 @@ namespace TCPClient
 
         private void BT_Dangnhap_Click(object sender, EventArgs e)
         {
-            string username = TB_Username.Text.Trim();
+            string username = TB_Username.Text.Trim(); // Dùng username hoặc email
             string password = TB_MK.Text;
 
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
@@ -64,41 +63,42 @@ namespace TCPClient
                 return;
             }
 
-            string hashedPassword = HashPassword(password);
-            string connectionString = "Data Source=.;Initial Catalog=QL_TaiKhoan;Integrated Security=True;";
+            // Hash mật khẩu (bạn đã làm đúng)
+            string hashedPassword = HashPassword(password); // Giữ nguyên hàm HashPassword
 
+            // THAY THẾ code SQL bằng code Socket
             try
             {
-                using (SqlConnection conn = new SqlConnection(connectionString))
+                // 1. Tạo chuỗi yêu cầu
+                string request = $"LOGIN|{username}|{hashedPassword}";
+
+                // 2. Gửi yêu cầu và nhận phản hồi
+                string response = NetworkClient.SendRequest(request);
+
+                // 3. Xử lý phản hồi
+                if (response.StartsWith("LOGIN_SUCCESS|"))
                 {
-                    conn.Open();
+                    // Nếu thành công, server sẽ trả về:
+                    // "LOGIN_SUCCESS|Username|Email|HoTen|SDT|NgaySinh|GioiTinh|DiaChi"
+                    MessageBox.Show("Đăng nhập thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    string query = "SELECT COUNT(*) FROM NguoiDung WHERE (Username = @Input OR Email=@Input) AND PasswordHash = @PasswordHash";
-                    using (SqlCommand cmd = new SqlCommand(query, conn))
-                    {
-                        cmd.Parameters.AddWithValue("@Input", username);
-                        cmd.Parameters.AddWithValue("@PasswordHash", hashedPassword);
+                    // Tách dữ liệu server trả về
+                    string[] userData = response.Split('|');
 
-                        int count = (int)cmd.ExecuteScalar();
-
-                        if (count > 0)
-                        {
-                            MessageBox.Show("Đăng nhập thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                            ThongTinNguoiDung home = new ThongTinNguoiDung(username);
-                            home.Show();
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Sai username hoặc mật khẩu!", "Đăng nhập thất bại", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
-                    }
+                    // Mở form thông tin và truyền dữ liệu qua
+                    // (Chúng ta sẽ sửa hàm khởi tạo của ThongTinNguoiDung ở bước 5)
+                    ThongTinNguoiDung home = new ThongTinNguoiDung(userData);
+                    home.Show();
+                    this.Hide();
+                }
+                else // (response == "LOGIN_FAIL" hoặc lỗi khác)
+                {
+                    MessageBox.Show("Sai username hoặc mật khẩu!", "Đăng nhập thất bại", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            catch (SqlException ex)
+            catch (Exception ex)
             {
-                MessageBox.Show("Lỗi kết nối SQL: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Lỗi kết nối: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

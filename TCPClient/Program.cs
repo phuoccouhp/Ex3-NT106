@@ -1,17 +1,22 @@
-namespace TCPClient
+﻿namespace TCPClient
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Dangnhap());
+
+            // Thử kết nối đến server TRƯỚC KHI chạy
+            if (NetworkClient.ConnectToServer())
+            {
+                // Nếu kết nối thành công, chạy Form Đăng nhập
+                Application.Run(new Dangnhap());
+
+                // Đảm bảo đóng kết nối khi ứng dụng tắt
+                NetworkClient.Disconnect();
+            }
+            // Nếu kết nối thất bại, ứng dụng sẽ tự tắt sau thông báo lỗi
         }
     }
 }
